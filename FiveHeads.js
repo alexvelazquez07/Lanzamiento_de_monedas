@@ -19,7 +19,7 @@ function fiveHeads() {
             }
             if(attempts === 20) reject(`5 consecutive "heads" were not reached`);
         }
-        //las veces que salió cara
+        //la cantidad de veces que salió cara
         resolve(`It took ${attempts} tries to flip five "heads"`);
         
     });
